@@ -1,0 +1,67 @@
+
+# ==========================================
+# FRONTEND - React / Vite / Node
+# ==========================================
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# BACKEND - ASP.NET Core / .NET
+# ==========================================
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.cache
+
+# ==========================================
+# AI SERVICE - Python
+# ==========================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python environment variables
+*.env
+
+# ==========================================
+# DATABASE / LOCAL DATA
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# LOGS / TEMPORARY FILES
+# ==========================================
+*.log
+logs/
+tmp/
+temp/
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# EDITORS
+# ==========================================
+.idea/
+.vscode/
